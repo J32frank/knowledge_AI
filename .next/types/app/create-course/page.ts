@@ -1,4 +1,4 @@
-// File: C:\Users\Jamie Franco\Documents\AI-GEN\knowledge-Growths\ai-gen\app\create-course\page.jsx
+// File: C:\Users\Lenovo\Documents\GitHub\knowledge_AI\app\create-course\page.jsx
 import * as entry from '../../../../app/create-course/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

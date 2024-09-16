@@ -1,4 +1,4 @@
-// File: C:\Users\Jamie Franco\Documents\AI-GEN\knowledge-Growths\ai-gen\app\create-course\layout.jsx
+// File: C:\Users\Lenovo\Documents\GitHub\knowledge_AI\app\create-course\layout.jsx
 import * as entry from '../../../../app/create-course/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
