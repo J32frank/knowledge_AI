@@ -1,0 +1,25 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "_ssr_app_create-course__components_generate_jsx";
+exports.ids = ["_ssr_app_create-course__components_generate_jsx"];
+exports.modules = {
+
+/***/ "(ssr)/./app/create-course/_components/generate.jsx":
+/*!****************************************************!*\
+  !*** ./app/create-course/_components/generate.jsx ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconst Generate = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"flex justify-center gap-4 \",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                className: \"text-gray-300\",\n                children: \"Knowledge Growth will Generate a suitable course for you\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Jamie Franco\\\\Documents\\\\AI-GEN\\\\knowledge-Growths\\\\ai-gen\\\\app\\\\create-course\\\\_components\\\\generate.jsx\",\n                lineNumber: 7,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n                children: \"Allow knowledge Growth get the courses for by clicking Generate\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Jamie Franco\\\\Documents\\\\AI-GEN\\\\knowledge-Growths\\\\ai-gen\\\\app\\\\create-course\\\\_components\\\\generate.jsx\",\n                lineNumber: 10,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\Jamie Franco\\\\Documents\\\\AI-GEN\\\\knowledge-Growths\\\\ai-gen\\\\app\\\\create-course\\\\_components\\\\generate.jsx\",\n        lineNumber: 5,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Generate);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9hcHAvY3JlYXRlLWNvdXJzZS9fY29tcG9uZW50cy9nZW5lcmF0ZS5qc3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQTBCO0FBRTFCLE1BQU1DLFdBQVc7SUFDZixxQkFDRSw4REFBQ0M7UUFBSUMsV0FBVTs7MEJBRWIsOERBQUNDO2dCQUFFRCxXQUFVOzBCQUFnQjs7Ozs7OzBCQUc3Qiw4REFBQ0U7MEJBQUc7Ozs7Ozs7Ozs7OztBQUdWO0FBQ0EsaUVBQWVKLFFBQVFBLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9haS1nZW4vLi9hcHAvY3JlYXRlLWNvdXJzZS9fY29tcG9uZW50cy9nZW5lcmF0ZS5qc3g/MDFjYiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSBcInJlYWN0XCI7XHJcblxyXG5jb25zdCBHZW5lcmF0ZSA9ICgpID0+IHtcclxuICByZXR1cm4gKFxyXG4gICAgPGRpdiBjbGFzc05hbWU9XCJmbGV4IGp1c3RpZnktY2VudGVyIGdhcC00IFwiPlxyXG4gICAgICB7LyogPEltYWdlIHNvdXJjZT17XCIuL2Fzc2V0cy9pbWFnZTEuanBnXCJ9IC8+ICovfVxyXG4gICAgICA8cCBjbGFzc05hbWU9XCJ0ZXh0LWdyYXktMzAwXCI+XHJcbiAgICAgICAgS25vd2xlZGdlIEdyb3d0aCB3aWxsIEdlbmVyYXRlIGEgc3VpdGFibGUgY291cnNlIGZvciB5b3VcclxuICAgICAgPC9wPlxyXG4gICAgICA8aDE+QWxsb3cga25vd2xlZGdlIEdyb3d0aCBnZXQgdGhlIGNvdXJzZXMgZm9yIGJ5IGNsaWNraW5nIEdlbmVyYXRlPC9oMT5cclxuICAgIDwvZGl2PlxyXG4gICk7XHJcbn07XHJcbmV4cG9ydCBkZWZhdWx0IEdlbmVyYXRlO1xyXG4iXSwibmFtZXMiOlsiUmVhY3QiLCJHZW5lcmF0ZSIsImRpdiIsImNsYXNzTmFtZSIsInAiLCJoMSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./app/create-course/_components/generate.jsx\n");
+
+/***/ })
+
+};
+;

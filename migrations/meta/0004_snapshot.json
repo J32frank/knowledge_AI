@@ -1,0 +1,126 @@
+{
+  "id": "4105c830-b347-4c22-bac8-313c261b5198",
+  "prevId": "04d9a4b1-1faf-49fd-a9bf-65cae7a4e3c1",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.chapterData": {
+      "name": "chapterData",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "courseId": {
+          "name": "courseId",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "chapterId": {
+          "name": "chapterId",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "videoUrl": {
+          "name": "videoUrl",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "chapterContent": {
+          "name": "chapterContent",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "chapterImage": {
+          "name": "chapterImage",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "chapterQuiz": {
+          "name": "chapterQuiz",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "chapterInt": {
+          "name": "chapterInt",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "public.courseData": {
+      "name": "courseData",
+      "schema": "",
+      "columns": {
+        "course_id": {
+          "name": "course_id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "course_title": {
+          "name": "course_title",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "course_description": {
+          "name": "course_description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "level": {
+          "name": "level",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "number_of_chapters": {
+          "name": "number_of_chapters",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "current_activities": {
+          "name": "current_activities",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "course_layout": {
+          "name": "course_layout",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "sequences": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}

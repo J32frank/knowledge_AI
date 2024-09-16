@@ -1,0 +1,8 @@
+{
+  "/page": "app/page.js",
+  "/FeaturePage/page": "app/FeaturePage/page.js",
+  "/create-course/page": "app/create-course/page.js",
+  "/create-course/[coursePage]/page": "app/create-course/[coursePage]/page.js",
+  "/create-course/[coursePage]/done/page": "app/create-course/[coursePage]/done/page.js",
+  "/create-course/[coursePage]/learningPage/page": "app/create-course/[coursePage]/learningPage/page.js"
+}

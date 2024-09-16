@@ -1,0 +1,92 @@
+{
+  "id": "6b6f37d1-c62c-476c-90e7-eb145f7a513d",
+  "prevId": "1873f9fa-aa26-48db-92ba-7bec621d2990",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.courseData": {
+      "name": "courseData",
+      "schema": "",
+      "columns": {
+        "course_id": {
+          "name": "course_id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "course_title": {
+          "name": "course_title",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "course_description": {
+          "name": "course_description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "levels": {
+          "name": "levels",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "number_of_chapters": {
+          "name": "number_of_chapters",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "reading_material": {
+          "name": "reading_material",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "current_activities": {
+          "name": "current_activities",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "course_layout": {
+          "name": "course_layout",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "chapters": {
+          "name": "chapters",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "time_allocated": {
+          "name": "time_allocated",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "books_to_read": {
+          "name": "books_to_read",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "sequences": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}
